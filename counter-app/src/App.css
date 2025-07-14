@@ -1,0 +1,23 @@
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: larger;
+  margin: 5%;
+  background-color: rgba(210, 105, 30, 0.587);
+  width: 15%;
+  height: auto;
+}
+
+button:hover {
+  background-color: burlywood;
+  border-radius: 30px;
+  width: auto;
+  height: auto;
+}
