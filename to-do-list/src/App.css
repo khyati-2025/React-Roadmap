@@ -1,0 +1,37 @@
+.kirang-haerang-regular {
+  font-family: "Kirang Haerang", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Kirang Haerang", system-ui;
+  text-align: center;
+  margin: 10%;
+}
+
+.form-tasks { 
+  font-family: "kirang Haerang";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  border: 2px solid #000000;
+  border-radius: 30px;
+}
+
+input{
+  width: 30%;
+  padding: 10px;
+  margin: 3%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+select, textarea {
+  font-family: "kirang Haerang";
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+}
