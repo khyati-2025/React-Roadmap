@@ -4,34 +4,84 @@
   font-style: normal;
 }
 
-.body {
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #FFC567;
   font-family: "Kirang Haerang", system-ui;
-  text-align: center;
-  margin: 10%;
 }
 
-.form-tasks { 
-  font-family: "kirang Haerang";
-  font-size: 30px;
+.body {
   display: flex;
   flex-direction: column;
-  margin: 5%;
-  border: 2px solid #000000;
-  border-radius: 30px;
+  align-items: center;
+  padding: 40px 20px;
+  color: #552CB7;
 }
 
-input{
-  width: 30%;
-  padding: 10px;
-  margin: 3%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  
+.form-tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #FB7DA8;
+  padding: 40px;
+  border-radius: 20px;
+  border: 3px solid #00995E;
+  box-shadow: 8px 8px 0 #FD5A46;
 }
 
-select, textarea {
-  font-family: "kirang Haerang";
-  font-size: 30px;
-  margin: 5px;
-  text-align: center;
+.form-tasks label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #552CB7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  font-family: "Kirang Haerang", system-ui;
+  font-size: 18px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid #058CD7;
+  margin-top: 8px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #552CB7;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  font-family: "Kirang Haerang", system-ui;
+  font-size: 20px;
+  padding: 14px 32px;
+  align-self: center;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #552CB7, #058CD7);
+  color: #FFC567;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #FD5A46, #FB7DA8);
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
