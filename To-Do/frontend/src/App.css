@@ -1,0 +1,139 @@
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Center the form using margin auto and set max width */
+form {
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: rgba(253, 226, 153, 0.708);
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Form inputs & selects styling */
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Labels spacing */
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Button Styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 50%;
+  margin: 10px auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #73fc78;
+  color: black;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.495);
+}
+
+/* Error Message */
+p {
+  color: red;
+}
+
+/* Task Cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.task-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.task-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.task-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.icon-button {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-icon {
+  color: #007bff;
+}
+
+.edit-icon:hover {
+  background-color: #d0e7ff;
+}
+
+.delete-icon {
+  color: #dc3545;
+}
+
+.delete-icon:hover {
+  background-color: #fddddd;
+}
