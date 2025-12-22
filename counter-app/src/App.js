@@ -13,10 +13,15 @@ function App() {
   }
   function reset(){
     countApp(0);
+    let zero = 0;
+    let one = 5;
   }
 
   return (
     <>
+
+
+    <h1>Hello-there</h1>
     
       
 
