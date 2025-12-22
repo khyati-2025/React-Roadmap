@@ -66,6 +66,12 @@ select {
   box-sizing: border-box;
 }
 
+
+
+
+
+
+
 textarea {
   resize: vertical;
 }
@@ -95,11 +101,3 @@ button:hover {
 }
 
 
-
-
-.Nothing {
-  margin: 0;
-  padding: 0;
-  background-color: #FFC567;
-  font-family: "Kirang Haerang", system-ui;
-}
