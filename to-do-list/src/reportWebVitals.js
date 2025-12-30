@@ -5,6 +5,10 @@ const reportWebVitals = onPerfEntry => {
       getFID(onPerfEntry);
       getFCP(onPerfEntry);
       getLCP(onPerfEntry);
+
+      '''Please if you are referring this delete it, This is of no use'''
+
+      
       getTTFB(onPerfEntry);
     });
   }
